@@ -1,4 +1,8 @@
 # BazeltestProject
+https://bazel.build/docs/build
+https://scalac.io/blog/set-up-bazel-build-tool-for-scala-project/
+
+
 ## Pre- Req:
 ### Mandatory Installation required :
 - bazel version:            4.1.0
@@ -29,18 +33,6 @@
 3. Open intellij
 3. Import the above repo as Bazel project into intelliJ (next > next > ok)
 
-### CodeBase
-- [Python CodeBase](src/main/python/com/kyndryl/)
-- [Scala CodeBase](src/main/scala/com/kyndryl/README.md)
-
-## Teams
-### DataMonks
-- [ETL](src/main/scala/com/kyndryl/cpa/README.md)
-- [Devops](src/main/python/com/kyndryl/cpa/README.md)
-
-## More
-- [Add New Dependecies](thirdparty/maven/README.md)
-- [Learnings](documentation/README.md)
 
 ## Bazel Commands
 ### test

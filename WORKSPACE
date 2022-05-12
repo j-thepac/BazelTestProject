@@ -20,7 +20,9 @@ bazel_skylib_workspace()
 
 ############ Download - functionlaity "rules_scala_version" to perform scala operations ############
 rules_scala_version="72c27ef603fc8b771fa80e3398c3fe7701af1515"
-# rules_scala_version is the latest commit - https://github.com/bazelbuild/rules_scala/commit
+# rules_scala_version is the latest commit Ref- https://github.com/bazelbuild/rules_scala/commit
+# Update this as and when required
+
 http_archive(
     name = "io_bazel_rules_scala",
     strip_prefix = "rules_scala-%s" % rules_scala_version,

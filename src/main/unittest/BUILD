@@ -1,4 +1,5 @@
-# java and python methods are available by default , others has to be explicilty imported as below
+# Folder with BUILD file is called a package
+# java and python methods are available by default , others like (scala_binary,scala_library) to be explicilty imported as below
 load("@io_bazel_rules_scala//scala:scala.bzl", "scala_binary","scala_library")
 
 #Package is visible across project
